@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
-body{
+body {
 	margin: 0;
 	background-color: rgb(26, 28, 40);
 
 }
 
-nav{
+nav {
 	text-align: center;
 }
-nav a{
+
+nav a {
 	color: hsl(0, 0%, 95%);
 	font-size: 30px;
 	font-weight: 700;
@@ -17,40 +18,46 @@ nav a{
 	text-decoration: none;
 	font-family: 'Big Shoulders Display', cursive;
 }
-main{
+
+main {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#red{
-	background-color:rgb(235, 80, 32) ;
-	grid-area: one ;
-	
+#red {
+	background-color: rgb(235, 80, 32);
+	grid-area: one;
+
 }
-#yellow{
-	background-color:rgb(255, 164, 1) ;
+
+#yellow {
+	background-color: rgb(255, 164, 1);
 	grid-area: two;
 }
-#green{
-	background-color:rgb(5, 170, 66) ;
+
+#green {
+	background-color: rgb(5, 170, 66);
 	grid-area: three;
 }
-#blue1{
-	background-color:rgb(1, 174, 253) ;
+
+#blue1 {
+	background-color: rgb(1, 174, 253);
 	grid-area: four;
 }
-#blue2{
-	background-color:rgb(1, 174, 253) ;
+
+#blue2 {
+	background-color: rgb(1, 174, 253);
 	grid-area: five;
 }
-#container{
+
+#container {
 	display: grid;
 	grid-template-areas: 'one one one one one two two'
-	'three three three four four four four'
-	'three three three five five five five'
+		'three three three four four four four'
+		'three three three five five five five'
 	;
 	gap: 10px;
 	height: 600px;
-	
+
 }
