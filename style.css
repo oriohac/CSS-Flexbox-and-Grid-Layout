@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+body{
+	margin: 0;
+	background-color: hsl(0, 0%, 95%);
+
+}
+nav{
+	text-align: center;
+}
+nav a{
+	color: hsl(184, 100%, 22%);
+	font-size: 30px;
+	font-weight: 700;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+
+#container{
+	justify-content: center;
+	margin-top: 60px;
+	display: flex;
+}
+h1{
+color: hsl(0, 0%, 95%);
+font-family: 'Big Shoulders Display', cursive;
+}
+p{
+font-family: 'Lexend Deca', sans-serif;
+font-size: 15px;
+color: hsla(0, 0%, 100%, 0.75);
+height: 140px;
+
+}
+button{
+	width: 120px;
+	height: 42px;
+	border-radius: 28px;
+	font-family: 'Lexend Deca', sans-serif;
+	cursor:pointer;
+}
+#box1{
+background-color: hsl(31, 77%, 52%);
+padding: 30px;
+width: 200px;
+height: 380px;
+border-top-left-radius: 6px;
+border-bottom-left-radius: 6px;
+} 
+#box1 img, h1, p{
+	margin-bottom: 20px;
+}
+#box1 button{
+	margin-top: 20px;
+	background-color: hsl(0, 0%, 95%);
+	color: hsl(31, 77%, 52%);
+	border: none;
+}
+#box1 button:active{
+background-color: hsl(31, 77%, 52%);
+color: hsl(0, 0%, 95%);
+border: solid hsl(0, 0%, 95%) 2px;
+
+}
+#box2{
+background-color: hsl(184, 100%, 22%);
+padding: 30px;
+width: 200px;
+height: 380px;
+} 
+#box2 img, h1, p{
+	margin-bottom: 20px;
+}
+#box2 button{
+	margin-top: 20px;
+	background-color: hsl(0, 0%, 95%);
+	color: hsl(184, 100%, 22%);
+	border: none;
+}
+#box2 button:active{
+background-color: hsl(184, 100%, 22%);
+color: hsl(0, 0%, 95%);
+border: solid hsl(0, 0%, 95%) 2px;
+
+}
+#box3{
+background-color: hsl(179, 100%, 13%);
+padding: 30px;
+width: 200px;
+height: 380px;
+border-top-right-radius: 6px;
+border-bottom-right-radius: 6px;
+} 
+#box3 img, h1, p{
+	margin-bottom: 20px;
+}
+#box3 button{
+	margin-top: 20px;
+	background-color: hsl(0, 0%, 95%);
+	color: hsl(179, 100%, 13%);
+	border: none;
+}
+#box3 button:active{
+background-color: hsl(179, 100%, 13%);
+color: hsl(0, 0%, 95%);
+border: solid hsl(0, 0%, 95%) 2px;
+}
+
+@media screen and (max-width: 375px){
+	#container{
+		flex-direction: column;
+		align-items: center;
+	}
+}
