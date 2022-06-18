@@ -20,9 +20,10 @@ nav a {
 }
 
 main {
-	width: 80%;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 40px;
 }
 
 #red {
@@ -58,6 +59,6 @@ main {
 		'three three three five five five five'
 	;
 	gap: 10px;
-	height: 600px;
+	height: 500px;
 
 }
