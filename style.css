@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
+	
+
 body {
 	margin: 0;
 	background-color: hsl(0, 0%, 95%);
@@ -130,6 +132,7 @@ p {
 	color: hsl(0, 0%, 95%);
 	border: solid hsl(0, 0%, 95%) 2px;
 }
+
 
 @media screen and (max-width: 375px) {
 	#container {
